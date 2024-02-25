@@ -2,7 +2,7 @@
 # Raspberry Pi - Relay Control
 
 A PHP web page that interacts with a Python script  to control lamps
-from a raspberr pi   
+from a raspberry pi   
 
 ![enter image description here](https://assets.raspberrypi.com/static/532b4c25752c4235d76cc41051baf9ab/3f4ea/877fb653-7b43-4931-9cee-977a22571f65_3b+Angle+2+refresh.jpg)
 
