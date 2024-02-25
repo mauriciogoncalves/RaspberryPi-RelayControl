@@ -4,11 +4,10 @@
 A PHP web page that interacts with a Python script  to control lamps
 from a raspberry pi   
 
-![enter image description here](https://github.com/mauriciogoncalves/RaspberryPi-RelayControl/blob/main/home/pi/Pictures/pi.jpeg?raw=true)
+![raspberry pi board](https://github.com/mauriciogoncalves/RaspberryPi-RelayControl/blob/main/home/pi/Pictures/pi.jpeg?raw=true)
 
 Plugged to an eight-channel relay connected to certain lamps in my house.
-![enter image description here](https://github.com/mauriciogoncalves/RaspberryPi-RelayControl/blob/main/home/pi/Pictures/relay.jpeg?raw=true)
-
+![eight-channel relay board](https://github.com/mauriciogoncalves/RaspberryPi-RelayControl/blob/main/home/pi/Pictures/relay.jpeg?raw=true)
 
 
 ## There is 4 files:
@@ -28,14 +27,13 @@ D --> C
 ## Connection and setup
 
 This eight-channel relay is connected to some lights at my home, some of then direcly connected, some of them integrated with 3 way switches on the wall, making possible control these light from the web page, but also manually from the regular switches on the walls.
-![enter image description here](https://upload.wikimedia.org/wikipedia/commons/7/75/3-way_switch_animated.gif) 
+![3 way switches description](https://upload.wikimedia.org/wikipedia/commons/7/75/3-way_switch_animated.gif) 
 
+# Result 
 
 ## Control the lights from web page 
 We can control the lights from these button in relay.php web page. 
 We can use this page just clicking in these buttons or we can make a request defining the state of every relay.
-
-
 
 #### Example link
 
@@ -50,6 +48,8 @@ Each parameter value is the desired state
 
 ## Control the lights from Android app
 I already use an Android App called **Yatse** to control tv box software called **Kodi** intalled in this raspberry Pi. 
-In the Yatse i could add custom bottons that make an HTTP request 
+In the Yatse i could add custom bottons that make an HTTP request. 
+
 The result is like this:
- [![Yatse](https://github.com/mauriciogoncalves/RaspberryPi-RelayControl/blob/main/home/pi/Pictures/yatse.jpg?raw=true)](https://www.youtube.com/shorts/agTWJfPldqQ)
+
+[![Yatse](https://github.com/mauriciogoncalves/RaspberryPi-RelayControl/blob/main/home/pi/Pictures/yatse.jpg?raw=true)](https://www.youtube.com/shorts/agTWJfPldqQ)
