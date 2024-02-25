@@ -4,10 +4,11 @@
 A PHP web page that interacts with a Python script  to control lamps
 from a raspberry pi   
 
-![enter image description here](https://assets.raspberrypi.com/static/532b4c25752c4235d76cc41051baf9ab/3f4ea/877fb653-7b43-4931-9cee-977a22571f65_3b+Angle+2+refresh.jpg)
+![enter image description here](https://github.com/mauriciogoncalves/RaspberryPi-RelayControl/blob/main/home/pi/Pictures/pi.jpeg?raw=true)
 
 Plugged to an eight-channel relay connected to certain lamps in my house.
-![enter image description here](https://fixmasterelectronics.com.ph/wp-content/uploads/2016/07/IMG_0554.jpg)
+![enter image description here](https://github.com/mauriciogoncalves/RaspberryPi-RelayControl/blob/main/home/pi/Pictures/relay.jpeg?raw=true)
+
 
 
 ## There is 4 files:
@@ -46,8 +47,9 @@ Each parameter value is the desired state
 - Value **2** change the state of the relay (**switch**) 
 - Value **3** keep the state of the relay (**keep**) 
 
+
 ## Control the lights from Android app
 I already use an Android App called **Yatse** to control tv box software called **Kodi** intalled in this raspberry Pi. 
 In the Yatse i could add custom bottons that make an HTTP request 
 The result is like this:
- [![Yatse](https://i.stack.imgur.com/Vp2cE.png)](https://www.youtube.com/shorts/agTWJfPldqQ)
+ [![Yatse](https://github.com/mauriciogoncalves/RaspberryPi-RelayControl/blob/main/home/pi/Pictures/yatse.jpg?raw=true)](https://www.youtube.com/shorts/agTWJfPldqQ)
