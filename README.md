@@ -12,7 +12,7 @@ Plugged to an eight-channel relay connected to certain lamps in my house.
 
 ## There is 4 files:
 
-- A **PHP** page that call a bash script. A special **sudo** permission was granted to apache user to allow php to call a specific script as root as required on Raspbian to access Pi GPio.
+- A **PHP** page that call a bash script. A special **sudo** permission was granted to apache user to allow php to call a specific script as root (as required on Raspbian to access Pi GPio).
 - A **Bash** script to be called by PHP and call the Python to run locally.
 - A **Python** script with code that use a GPio library that can control the relay board. 
 - A **text** file to save the last state of the switches.
