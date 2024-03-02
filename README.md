@@ -47,7 +47,7 @@ Each parameter value is the desired state
 
 
 ## Control the lights from Android app
-I already use an Android App called **Yatse** to control tv box software called **Kodi** intalled in this raspberry Pi. 
+I already use an Android App called **Yatse** to control tv box software called **Kodi** intalled in this raspberry Pi.
 In the Yatse i could add custom bottons that make an HTTP request. 
 
 The result is like this:
